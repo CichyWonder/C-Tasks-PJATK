@@ -1,4 +1,4 @@
-﻿// zadanie19.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
+﻿// zadanie 13.2.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
 //
 
 #include <iostream>
@@ -6,10 +6,14 @@ using namespace std;
 
 int main()
 {
-	int ocena = 1;
-	
-	cout << "podaj ocene" << endl;
+	int y;
 
+	for (y = 1000; y <= 9999; y++) {
+		if (y % 13 == 0) {
+			cout << y << endl;
+		}
+	}
+	return 0;
 }
 
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania

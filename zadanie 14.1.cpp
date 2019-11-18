@@ -1,14 +1,25 @@
-﻿// zadanie19.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
+﻿// zadanie 14.1.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
 //
+
 
 #include <iostream>
 using namespace std;
 
 int main()
 {
-	int ocena = 1;
-	
-	cout << "podaj ocene" << endl;
+	int y=1;
+	int x;
+	cout << "podaj liczbe" << endl;
+	cin >> x;
+
+	while (y <= x) {
+		if (x % y == 0) {
+			cout << y << endl;
+			
+		}
+		y++;
+	}
+	return 0;
 
 }
 
